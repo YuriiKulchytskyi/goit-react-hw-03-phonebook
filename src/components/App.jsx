@@ -30,7 +30,7 @@ export class App extends Component {
     );
 
     if (isNameExist) {
-      alert(`${newContact.name} is already in contacts!`);
+      alert(`${newContact.name} is already in contacts!  `);
       return;
     }
 
